@@ -79,6 +79,7 @@ hr{
     grid-row-gap:1em;
     */
     /*grid-gap:1em;*/
+    text-align: center;
 }
 
 
@@ -90,6 +91,12 @@ hr{
     background:#ddd;
 }
 
+@media(max-width:850px){
+    .wrapper{
+        grid-template-columns: 2fr 2fr; 
+    }
+}
+
 
 @media(max-width:568px){
     .pimg1, .pimg2, .pimg3{
@@ -98,6 +105,9 @@ hr{
 
     .section{
         padding:20px 30px;;
+    }
+    .wrapper{
+        grid-template-columns: 1fr; 
     }
 }
 
