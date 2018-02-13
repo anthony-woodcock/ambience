@@ -215,7 +215,7 @@ audio::-webkit-media-controls-play-button {
 }
 
 
-@media(max-width:568px){
+@media(max-width:610px){
     .pimg1, .pimg2, .pimg3{
         background-attachment: scroll;
     }
