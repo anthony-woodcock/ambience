@@ -97,28 +97,115 @@ footer{
 
 #ocean{
     background-image:url('../img/ocean.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat:no-repeat;
     color:white;
+    font-family: 'Titillium Web', sans-serif;
+    letter-spacing: 8px;
+    font-size: 1.5em; 
 }
+#ocean:hover {
+    opacity: 0.9;
+}
+#ocean audio:hover {
+    opacity: 1;
+}
+
 #forest{
     background-image:url('../img/forest.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat:no-repeat;
     color:white;
+    font-family: 'Titillium Web', sans-serif;
+    letter-spacing: 8px;
+    font-size: 1.5em; 
 }
+#forest:hover {
+    opacity: 0.9;
+}
+#forest audio:hover {
+    opacity: 1;
+}
+
 #rain{
     background-image:url('../img/rain.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat:no-repeat;
     color:white;
+    font-family: 'Titillium Web', sans-serif;
+    letter-spacing: 8px;
+    font-size: 1.5em; 
 }
+#rain:hover {
+    opacity: 0.9;
+}
+#rain audio:hover {
+    opacity: 1;
+}
+
 #guitar{
     background-image:url('../img/guitar.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat:no-repeat;
     color:white;
+    font-family: 'Titillium Web', sans-serif;
+    letter-spacing: 8px;
+    font-size: 1.5em; 
 }
+#guitar:hover {
+    opacity: 0.9;
+}
+#guitar audio:hover {
+    opacity: 1;
+}
+
 #birds{
     background-image:url('../img/birds.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat:no-repeat;
     color:white;
+    font-family: 'Titillium Web', sans-serif;
+    letter-spacing: 8px;
+    font-size: 1.5em; 
 }
+#birds:hover {
+    opacity: 0.9;
+}
+#birds audio:hover {
+    opacity: 1;
+}
+
 #stars{
     background-image:url('../img/stars.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat:no-repeat;
     color:white;
+    font-family: 'Titillium Web', sans-serif;
+    letter-spacing: 8px;
+    font-size: 1.5em; 
 }
+#stars:hover {
+    opacity: 0.9;
+}
+#stars audio:hover {
+    opacity: 1;
+}
+
+audio {
+    opacity: 0.8;
+}
+audio::-webkit-media-controls-play-button {
+    background-color: rgba(230, 230, 255, 1);
+  }
+
+
+  
 
 @media(max-width:850px){
     .wrapper{
