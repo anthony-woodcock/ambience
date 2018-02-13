@@ -73,7 +73,7 @@ hr{
     /* grid-template-columns:70% 30%; */
     grid-template-columns: 1fr 1fr 1fr;
     /*grid-auto-rows:100px;*/
-    grid-auto-rows: minmax(100px, auto);
+    grid-auto-rows: minmax(200px, auto);
     /*
     grid-column-gap:1em;
     grid-row-gap:1em;
@@ -95,9 +95,35 @@ footer{
     text-align: center;
 }
 
+#ocean{
+    background-image:url('../img/ocean.jpg');
+    color:white;
+}
+#forest{
+    background-image:url('../img/forest.jpg');
+    color:white;
+}
+#rain{
+    background-image:url('../img/rain.jpg');
+    color:white;
+}
+#guitar{
+    background-image:url('../img/guitar.jpg');
+    color:white;
+}
+#birds{
+    background-image:url('../img/birds.jpg');
+    color:white;
+}
+#stars{
+    background-image:url('../img/stars.jpg');
+    color:white;
+}
+
 @media(max-width:850px){
     .wrapper{
-        grid-template-columns: 2fr 2fr; 
+        grid-template-columns: 2fr 2fr;
+        grid-auto-rows: minmax(150px, auto); 
     }
 }
 
@@ -112,6 +138,7 @@ footer{
     }
     .wrapper{
         grid-template-columns: 1fr; 
+        grid-auto-rows: minmax(100px, auto);
     }
 }
 
