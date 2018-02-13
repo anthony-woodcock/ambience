@@ -93,6 +93,7 @@ hr{
 
 footer{
     text-align: center;
+    padding:5px;
 }
 
 #ocean{
@@ -112,8 +113,8 @@ footer{
     opacity: 1;
 }
 
-#forest{
-    background-image:url('../img/forest.jpg');
+#coffee{
+    background-image:url('../img/coffee.jpg');
     background-position: center;
     background-size: cover;
     background-repeat:no-repeat;
@@ -122,10 +123,10 @@ footer{
     letter-spacing: 8px;
     font-size: 1.5em; 
 }
-#forest:hover {
+#coffee:hover {
     opacity: 0.9;
 }
-#forest audio:hover {
+#coffee audio:hover {
     opacity: 1;
 }
 
@@ -203,8 +204,6 @@ audio {
 audio::-webkit-media-controls-play-button {
     background-color: rgba(230, 230, 255, 1);
   }
-
-
   
 
 @media(max-width:850px){
@@ -212,7 +211,7 @@ audio::-webkit-media-controls-play-button {
         grid-template-columns: 2fr 2fr;
         grid-auto-rows: minmax(150px, auto); 
     }
-}
+} 
 
 
 @media(max-width:610px){
