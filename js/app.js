@@ -4,5 +4,14 @@ $(document).ready(function(){
 
 })
 
-var vid = document.getElementById("audio-level");
-vid.volume = 0.4;
+var oceanAudio = document.getElementById("ocean-audio");
+oceanAudio.volume = 0.4;
+
+var coffeeAudio = document.getElementById("coffee-audio");
+coffeeAudio.volume = 0.4;
+
+var birdAudio = document.getElementById("bird-audio");
+birdAudio.volume = 0.4;
+
+var rainAudio = document.getElementById("rain-audio");
+rainAudio.volume = 0.4;
