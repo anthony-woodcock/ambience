@@ -18,3 +18,6 @@ rainAudio.volume = 0.4;
 
 var starsAudio = document.getElementById("stars-audio");
 starsAudio.volume = 0.4;
+
+var guitarAudio = document.getElementById("guitar-audio");
+guitarAudio.volume = 0.4;
