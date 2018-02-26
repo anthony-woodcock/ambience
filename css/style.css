@@ -8,6 +8,11 @@ body, html {
     color:#666;
 }
 
+audio {
+    width: 98%;
+}
+
+
 .pimg1, .pimg2, .pimg3{
     position: relative;
     opacity: 0.70;
@@ -237,7 +242,5 @@ a {
         grid-auto-rows: minmax(100px, auto);
     }
 }
-
-
 
 
