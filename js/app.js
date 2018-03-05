@@ -1,8 +1,8 @@
 
-$(document).ready(function(){
-    $("h1").fadeIn(1000).animate({ fontSize : '27px' })
+// $(document).ready(function(){
+//     $("h1").fadeIn(1000).animate({ fontSize : '27px' })
 
-})
+// })
 
 var oceanAudio = document.getElementById("ocean-audio");
 oceanAudio.volume = 0.4;
